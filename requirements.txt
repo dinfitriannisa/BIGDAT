@@ -3,5 +3,5 @@ ultralytics
 tensorflow
 pillow
 numpy
-opencv-python-headless
 streamlit-option-menu
+opencv-python-headless
