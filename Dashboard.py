@@ -12,14 +12,10 @@ import time
 # ==========================
 @st.cache_resource
 def load_models():
-    # YOLO Detection
-    yolo_path = r"C:\SEMESTER 7\BIG DATA\UTS\uts.1\model\Din Fitri Annisa_Laporan 4.pt"
+    yolo_path = "model/Din Fitri Annisa_Laporan 4.pt"
     yolo_model = YOLO(yolo_path)
-
-    # H5 Classifier
-    h5_path = r"C:\SEMESTER 7\BIG DATA\UTS\uts.1\model\Din Fitri Annisa_Laporan 2.h5.h5"
+    h5_path = "model/Din Fitri Annisa_Laporan 2.h5.h5"
     classifier = tf.keras.models.load_model(h5_path)
-
     return yolo_model, classifier
 
 yolo_model, classifier = load_models()
