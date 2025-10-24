@@ -1,0 +1,7 @@
+streamlit
+streamlit-option-menu
+ultralytics
+tensorflow
+numpy
+pillow
+opencv-python-headless
