@@ -1,7 +1,7 @@
-streamlit-option-menu
 streamlit
-ultralytics
-tensorflow
-opencv-python-headless
+streamlit-option-menu
+ultralytics==8.0.196
+tensorflow==2.15.0
+opencv-python-headless==4.8.1.78
 Pillow
 numpy
