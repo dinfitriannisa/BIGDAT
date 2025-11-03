@@ -1,7 +1,8 @@
 streamlit
-streamlit-option-menu
-tensorflow==2.20.0
-ultralytics==8.2.0
-opencv-python-headless==4.8.1.78
+ultralytics==8.0.196
+torch==2.1.0
+torchvision==0.16.0
+tensorflow==2.15.0
 Pillow
 numpy
+streamlit-option-menu
