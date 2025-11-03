@@ -1,8 +1,8 @@
 streamlit
-ultralytics==8.0.196
-torch==2.1.0
-torchvision==0.16.0
-tensorflow==2.15.0
+ultralytics==8.0.20
+torch==2.0.1
+torchvision==0.15.2
+tensorflow-cpu==2.13.0
 Pillow
 numpy
 streamlit-option-menu
